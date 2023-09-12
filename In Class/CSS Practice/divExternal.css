@@ -1,16 +1,67 @@
 
     .bluebox{
         background-color:blue;
-        color:blue;
+        color:yellowgreen;
         height:100px;
         width:auto;
+        padding: 10px;
+        border:10px ridge;
+        border-right-color: blueviolet;
+        border-left-color:blanchedalmond;
+border-color: black green orange yellow;
+border-style: ridge; 
+height:100px;
+width: 100px; 
+border-radius:80px; 
+padding:10px;
+border-width:10px;
+
+
+
     
     }
     .blue{
+        margin:10px; 
+
+        padding:10px;
         color:blue;
         background-color: green;
         background: rgba(0, 128, 0, 0.3);
     }
     .yellowbox{
+        margin:10px; 
+
+        padding:10px 20px 10px 30px;
         background-color: yellow;
+        border-bottom-width:auto;
+    }
+    .great{
+        margin:10px; 
+        font-size:300%;
+    }
+    .greenbox{
+        margin:10px; 
+        padding: 40px 70px;
+        border-top-width:auto;
+        margin-top:40px;
+        margin-bottom:40px;
+        margin-right:40px;
+        margin-left:40px;
+        border-bottom-width:auto;
+        background-color:aquamarine;
+        color:blueviolet;
+        background-image:url(images/butter.jpg);
+        background-repeat: no-repeat; 
+        background-size: 100% 100%; 
+        height: 300px; 
+        background-origin: content-box;
+        outline-style: double; 
+        outline-width: thick;
+        outline-color: magenta;
+
+
+    }
+    p{
+        margin:0;
+        background-color:#fff;
     }
