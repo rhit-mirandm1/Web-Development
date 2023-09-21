@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css'
+        integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
+        crossorigin='anonymous' />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel='stylesheet' href="styles/main.css">
+
+    <title>Favorite Things</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color: #0f4f66">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Favorite Things</a>
+        </div>
+    </nav>
+    <hr>
+    <div id="mainPage" class="container page-container">
+        <h2>Favorite Number:</h2>
+        <div id="counterText">0</div>
+        <div class="button-group1">
+
+            <button id="minusButton" class="btn btn-secondary">-1</button>
+            <button id="resetButton" class="btn btn-secondary">Reset</button>
+            <button id="plusButton" class="btn btn-secondary">+1</button>
+        </div>
+    </div>
+    <hr>
+    <div id="colorSection" class="container favoriteColorContainer">
+        <h2>Favorite Color:</h2>
+        <div id="favoriteColorBox">
+            none
+        </div>
+        <div class="button-group2">
+
+            <button id="blue" class="btn btn-secondary">blue</button>
+            <button id="green" class="btn btn-secondary">green</button>
+            <button id="red" class="btn btn-secondary">red</button>
+            <button id="purple" class="btn btn-secondary">purple</button>
+
+       </div>
+    </div>
+        <hr>
+        <script src="scripts/main.js"></script>
+</body>
+
+</html>
