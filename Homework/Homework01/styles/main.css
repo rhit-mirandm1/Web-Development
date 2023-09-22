@@ -1,81 +1,120 @@
-    .button-group1  {
+    .button-group1 {
         text-align: center;
 
     }
+
     .button-group2 {
         text-align: center;
+        column-gap: 2px;
 
     }
+
+    body {
+
+        background-color: rgb(219, 219, 219);
+
+    }
+
     .page-container>h2 {
         text-align: left;
-       
-    }
-    hr{
-        
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-    
-    
+
     }
 
-    .button-group1>button {
-        font-family:"Monaco",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    .button-group1 button {
         font-size: 16px;
-        letter-spacing: 2px;
-        margin: 20px;
         text-transform: uppercase;
-        width: 200px;
-        color: #06090d;
+        color: #fdfdfd;
+        background-color: #800000;
+        ;
         cursor: pointer;
-        border: 3px solid;
-        padding: 0.25em 0.5em;
-        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-        background-image: linear-gradient(144deg,#270582, #baafd6 50%,#9c93cc);
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+
 
     }
 
-    .button-group2>button {
-        width:200px; 
-        margin:20px;
-    }
-    #blue {
+
+
+    #blueButton {
         background-color: blue;
+
+
     }
-    #red {
+
+    #redButton {
         background-color: red;
     }
-    #green {
+
+    #greenButton {
         background-color: green;
     }
-    #purple {
-        background-color: purple
-        ;
+
+    #purpleButton {
+        background-color: purple;
     }
 
 
-    
-    h2{
+
+    h2 {
         margin-left: auto;
         margin-right: auto;
-        text-align-last:left;
+        text-align-last: left;
     }
 
     #counterText {
-        
+
         font-size: 2em;
         text-align: center;
     }
-    #favoriteColorContainer{
-        width: 200px;
-        margin:20px;
+
+    #favoriteColorContainer {
+        text-align: center;
+
+
     }
+
     #favoriteColorBox {
+
         background-color: #800000;
         line-height: 100px;
         text-align: center;
-        color:white;
-        
+        width: 200px;
+        margin: auto;
+        color: white;
+
     }
 
+    .button-group2 button {
 
+        font-size: 16px;
+        color: #ebebec;
+        background-color: #800000;
+        ;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        color: #ebebec;
+        width: 100%;
+
+
+    }
+
+    hr {
+
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .coli {
+
+        text-align: center;
+        padding: 2px;
+        padding-bottom: 2px;
+
+
+    }
