@@ -5,7 +5,6 @@
 
     .button-group2 {
         text-align: center;
-        column-gap: 2px;
 
     }
 
@@ -94,7 +93,7 @@
         background-color: #800000;
         ;
         cursor: pointer;
-        text-align: center;
+        /* text-align: center; */
         margin-top: 20px;
         font-size: 16px;
         color: #ebebec;
