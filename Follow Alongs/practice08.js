@@ -1,7 +1,7 @@
-function multiply(x,y){
-    return x*y;
-}
-console.log(multiply(3,5));
+// function multiply(x,y){
+//     return x*y;
+// }
+// console.log(multiply(3,5));
 
 function isEven(num){
     if(num%2==0){
@@ -42,8 +42,7 @@ function average(num1,num2,num3){
     }
     return avg(num1,num2,num3);
 }
-console.log(average(3,5,4));
-
+console.log(average(3,5,7));
 multiply = (a,b) => a*b;
 greet = (name) => `Hello, ${name}!`;
 square = (x) => x*x;
