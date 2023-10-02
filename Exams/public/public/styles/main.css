@@ -1,0 +1,142 @@
+
+body{
+  font-family: 'Caveat';
+  font-size: 60px;
+}
+h1{
+    font-size: 100px;
+    padding:none;
+    margin:none;
+    background-color: white;
+    
+}
+
+.navbar{
+  font-size:40px;
+  border:2px black;
+  width: 100%;
+  padding:0px;
+  
+  
+}
+.nav-item{
+  color:#FFFFFF;
+  width: 100%;
+}
+.navbar-nav{
+  width:100%;
+  background-color: #7d8485;
+
+
+}
+#topItems{
+ float: right;
+ background-color: #7d8485;
+}
+
+.card-img{
+  float:left;
+  padding: none;
+  margin:none;
+  width:100%;
+}
+
+.card{
+  width :100%;
+  background-color: white;
+  box-shadow: ;
+}
+.col{
+  vertical-align: middle;
+  height:100%;
+  text-align: center;
+  }
+#textCard{
+  font-size: 100%;
+}
+
+#selectButton{
+  cursor: pointer;
+  background-image: linear-gradient(144deg,#032809, #0a470e 50%,#7d8485);
+  border-radius: 8px;
+  border-color: black;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+ 
+}
+
+#first{
+  background-color: maroon;
+  border: 2px rosybrown;
+  border-radius: 50%;
+  margin:10px;
+  color:#FFFFFF;
+  box-shadow: 3px 3px 6px rgba(0.23,0.23,0.23,0.23), 3px 3px 6px rgba(0.23,0.23,0.23,0.23);
+
+}
+#second{
+  background-color: rgb(191, 160, 21);
+  border: 2px rosybrown;
+  border-radius: 50%;
+  margin:10px;
+  color:#FFFFFF;
+  box-shadow: 3px 3px 6px rgba(0.23,0.23,0.23,0.23), 3px 3px 6px rgba(0.23,0.23,0.23,0.23);
+
+
+  
+}
+
+#third{
+  background-color: rgba(5, 66, 88, 0.805);
+  border-radius: 50%;
+  margin:10px;
+  color:#FFFFFF;
+  box-shadow: 3px 3px 6px rgba(0.23,0.23,0.23,0.23), 3px 3px 6px rgba(0.23,0.23,0.23,0.23);
+
+}
+.nav-item {
+  border: 2px rosybrown;
+  padding: auto;
+  width: 100%;
+}
+footer{
+  text-align: right;
+  background-color: #7d8485;
+}
+p{
+  font-size: 120%;
+  align-self: center;
+}
+.card-title{
+  color: rgb(97, 10, 10);
+  font-weight: bold;
+}
+
+#secondImage{
+  visibility: none;
+}
+#logo{
+  font-size: 80px;
+  background-color: #7d8485;
+  margin-right: 20px;
+}
+@media (max-width: 768px){
+    #logo.navbar-brand {
+       text-align: center;
+  background-color: #7d8485;
+  margin-right: 20px;
+    }
+  }
+  .card{
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0.23,0.23,0.23,0.23), 3px 3px 6px rgba(0.23,0.23,0.23,0.23);
+  }
+ 
+  body{
+    background-color: #7d8485;
+  }
+ .container-fluid{
+  background-color: #7d8485;
+ }
