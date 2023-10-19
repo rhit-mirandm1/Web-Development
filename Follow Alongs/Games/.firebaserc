@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "mirandm1-firebase"
+  },
+  "targets": {
+    "mirandm1-firebase": {
+      "hosting": {
+        "01": [
+          "tictactoe01-d1424"
+        ],
+        "02": [
+          "tic-game-second"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

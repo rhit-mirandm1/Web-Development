@@ -1,0 +1,40 @@
+body {
+    /*background-color: #f9f9f9; */
+    background: linear-gradient(to left, #5fffd2, #ede2e5);
+    font-family: Arial, sans-serif;
+}
+
+#car {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#car-list {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+#car-list li {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+#car-list li:hover {
+    background-color: #eff3d9;
+
+
+}
+.display-4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgba(153, 0, 255, 0.052);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
