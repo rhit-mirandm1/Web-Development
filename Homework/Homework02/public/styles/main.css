@@ -1,0 +1,48 @@
+
+.card-body{
+    background-color: white;
+}
+body{
+
+    background-color: rgb(187, 186, 186);
+}
+.navbar{
+    background-color:rgb(62, 80, 94); 
+    color:aliceblue
+}
+#logo{
+    color:aliceblue
+}
+.card{
+    text-align: center;
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px; 
+    width:40%;
+}
+#client {
+    text-align: center;
+}
+
+.cardText{
+ 
+}
+#anotherTestimony{
+    background-color:rgb(62, 80, 94); ;
+    border-radius: 20px;
+    color:aliceblue;
+    
+    margin:10px;
+    padding:5px;
+    text-align: center;
+   
+   
+
+
+}
+#name{
+    font-weight :bold;
+}
+#currentImage{
+ padding:10px;
+}
